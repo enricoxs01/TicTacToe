@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    
+
+  }
+
+body {
+    margin:50px;
+    font-family: Helvetica;
+    justify-content: center;
+    width: 450px;
+    height: 450px;
+    border:  1px solid blue;
+}
+main {
+  justify-content: center;
+}
+
+h1,p {
+    text-align: center;
+}
+
+
+table {
+    width: 50%;
+    table-layout: fixed;
+}
+
+table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+  }
+button {
+  text-align: center;
+}
+  .center{
+    margin-left: auto;
+    margin-right: auto;
+  }
